@@ -1,5 +1,6 @@
 package net.cody.tutorialmod;
 
+import net.cody.tutorialmod.block.ModBlocks;
 import net.cody.tutorialmod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -54,7 +55,7 @@ public class TutorialMod {
         NeoForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
-
+        ModBlocks.register(modEventBus);
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
@@ -69,7 +70,15 @@ public class TutorialMod {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.BISMUTH);
+            event.accept(ModItems.RAW_BISMUTH);
+
         }
+
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.BISMUTH_BLOCK);
+            event.accept(ModBlocks.BISMUTH_ORE);
+        }
+
 
     }
     // You can use SubscribeEvent and let the Event Bus discover methods to call
