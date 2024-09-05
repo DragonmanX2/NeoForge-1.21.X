@@ -5,7 +5,7 @@
   "experience": 0.25,
   "group": "bismuth",
   "ingredient": {
-    "item": "dragonmanmod:bismuth_deepslate_ore"
+    "item": "dragonmanmod:raw_bismuth"
   },
   "result": {
     "id": "dragonmanmod:bismuth"
