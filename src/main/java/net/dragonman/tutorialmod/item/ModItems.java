@@ -1,6 +1,6 @@
-package net.cody.tutorialmod.item;
+package net.dragonman.tutorialmod.item;
 
-import net.cody.tutorialmod.TutorialMod;
+import net.dragonman.tutorialmod.TutorialMod;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;

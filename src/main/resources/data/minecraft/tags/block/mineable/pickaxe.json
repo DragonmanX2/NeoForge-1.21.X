@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "dragonmanmod:bismuth_block",
+    "dragonmanmod:bismuth_ore",
+    "dragonmanmod:bismuth_deepslate_ore"
+  ]
+}

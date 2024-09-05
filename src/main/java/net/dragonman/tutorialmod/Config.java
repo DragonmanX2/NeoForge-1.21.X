@@ -1,4 +1,4 @@
-package net.cody.tutorialmod;
+package net.dragonman.tutorialmod;
 
 import java.util.List;
 import java.util.Set;
