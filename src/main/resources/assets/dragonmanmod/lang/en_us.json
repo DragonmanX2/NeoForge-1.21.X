@@ -3,5 +3,8 @@
   "item.dragonmanmod.raw_bismuth": "Raw Bismuth",
 
   "block.dragonmanmod.bismuth_block": "Block of Bismuth",
-  "block.dragonmanmod.bismuth_ore": "Bismuth Ore"
+  "block.dragonmanmod.bismuth_ore": "Bismuth Ore",
+
+  "creativetab.dragonmanmod.bismuth_items": "Bismuth Items",
+  "creativetab.dragonmanmod.bismuth_blocks": "Bismuth blocks"
 }
