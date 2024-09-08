@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "Misc",
+  "key": {
+    "S": {
+      "tag": "c:rods/wooden"
+    },
+    "B": {
+      "item": "dragonmanmod:bismuth"
+    }
+  },
+  "pattern": [
+    "B",
+    "S"
+  ],
+  "result": {
+    "count": 1,
+    "id": "dragonmanmod:chisel"
+  }
+}
