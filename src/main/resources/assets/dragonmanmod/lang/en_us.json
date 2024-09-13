@@ -14,5 +14,12 @@
   "block.dragonmanmod.magic_block": "Magic Block",
 
   "creativetab.dragonmanmod.bismuth_items": "Bismuth Items",
-  "creativetab.dragonmanmod.bismuth_blocks": "Bismuth blocks"
+  "creativetab.dragonmanmod.bismuth_blocks": "Bismuth blocks",
+
+  "tooltip.dragonmanmod.magic_block.tooltip": "This block is very §9MAGICAL§r",
+
+  "tooltip.dragonmanmod.chisel.shift_down": "This item can chisel Blocks into Bricks",
+  "tooltip.dragonmanmod.chisel": "Press §eShift§r for more Information",
+
+  "tooltip.dragonmanmod.radish.tooltip": "Tastes really great!"
 }
